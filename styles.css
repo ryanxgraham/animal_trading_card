@@ -1,0 +1,62 @@
+
+.card{
+    border: 1px solid gray;
+    width: 320px;
+    height:540px;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12pt;
+    color: white;
+    background-color: rgb(24, 100, 0);
+    box-shadow: 3px 3px 3px grey;
+}
+
+.info{
+    font-style: italic;
+    text-shadow: -.5px 0 black, 0 .5px black, .5px 0 black, 0 -.5px black;
+}
+
+.box{
+    width:300px;
+    border: 1px solid rgb(20, 80, 0);
+    margin: 5px;
+    padding: 5px;
+    float:left;
+    font-size: 13px;
+    background-color: rgb(40, 140, 0);
+    box-shadow: 3px 3px 3px rgb(15, 60, 0);
+    text-shadow: -.5px 0 black, 0 .5px black, .5px 0 black, 0 -.5px black;
+
+}
+.citation{
+    margin: 5px;
+    font-style: italic;
+    font-size: 8pt;
+}
+h3{
+    margin: 5px;
+    text-shadow: 2px 2px 2px black, 1px 1px 25px rgb(40, 140, 0), 1px 1px 10px rgb(15, 60, 0);
+}
+
+img{
+    width:300px;
+    height:200px;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid rgb(20, 80, 0);
+    background-color: rgb(40, 140, 0);
+    box-shadow: 3px 3px 3px rgb(15, 60, 0);
+
+}
+
+ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+}
+
+span{
+    font-weight: bold;
+}
